@@ -1,0 +1,581 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>me documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/Postmark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">me documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>BlogComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/components/blog/blog.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-blog</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./blog.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./blog.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#rewriteUrl">rewriteBlogURL</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(blogService: <a href="../injectables/BlogService.html">SharedService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="9" class="link-to-prism">src/app/components/blog/blog.component.ts:9</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>blogService</td>
+
+                                                        <td>
+                                                                        <code><a href="../injectables/BlogService.html" target="_self" >SharedService</a></code>
+                                                        </td>
+
+                                                    <td>
+                                                            No
+                                                    </td>
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="14"
+                            class="link-to-prism">src/app/components/blog/blog.component.ts:14</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="rewriteUrl"></a>
+                    <span class="name">
+                        <b>
+                            rewriteBlogURL
+                        </b>
+                        <a href="#rewriteUrl"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>rewriteBlogURL(url: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="17"
+                            class="link-to-prism">src/app/components/blog/blog.component.ts:17</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                    <td>Default value</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>url</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+                                    <td>
+                                        <code>&#x27;http://www.myblog.nguenkam.com/&#x27;</code>
+                                    </td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import {Component, OnInit} from &#x27;@angular/core&#x27;;
+import {SharedService} from &#x27;../../services/blog.service&#x27;;
+
+@Component({
+  selector: &#x27;app-blog&#x27;,
+  templateUrl: &#x27;./blog.component.html&#x27;,
+  styleUrls: [&#x27;./blog.component.scss&#x27;]
+})
+export class BlogComponent implements OnInit {
+
+  constructor(private blogService: SharedService) {
+  }
+
+  ngOnInit(): void {
+  }
+
+  rewriteBlogURL( url &#x3D; &#x27;http://www.myblog.nguenkam.com/&#x27; ): void {
+    this.blogService.currentBlogURL &#x3D; url;
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;section class&#x3D;&quot;cta-section theme-bg-light py-5&quot;&gt;
+  &lt;div class&#x3D;&quot;container text-center&quot;&gt;
+    &lt;h2 class&#x3D;&quot;heading&quot;&gt;A Blog About Software Development And Life&lt;/h2&gt;
+    &lt;a href&#x3D;&quot;http://www.myblog.nguenkam.com/&quot; target&#x3D;&quot;_blank&quot;&gt; ( http://www.myblog.nguenkam.com )&lt;/a&gt;
+    &lt;div class&#x3D;&quot;intro&quot;&gt;Welcome to my blog. Subscribe and get my latest blog post in your inbox.&lt;/div&gt;
+    &lt;form class&#x3D;&quot;signup-form form-inline justify-content-center pt-3&quot;&gt;
+      &lt;div class&#x3D;&quot;form-group&quot;&gt;
+        &lt;label class&#x3D;&quot;sr-only&quot; for&#x3D;&quot;semail&quot;&gt;Your email&lt;/label&gt;
+        &lt;input type&#x3D;&quot;email&quot; id&#x3D;&quot;semail&quot; name&#x3D;&quot;semail1&quot; class&#x3D;&quot;form-control mr-md-1 semail&quot; placeholder&#x3D;&quot;Enter email&quot;&gt;
+      &lt;/div&gt;
+      &lt;button type&#x3D;&quot;submit&quot; class&#x3D;&quot;btn btn-primary&quot;&gt;Subscribe&lt;/button&gt;
+    &lt;/form&gt;
+  &lt;/div&gt;&lt;!--//container--&gt;
+&lt;/section&gt;
+&lt;section class&#x3D;&quot;blog-list px-3 py-5 p-md-5&quot;&gt;
+  &lt;div class&#x3D;&quot;container&quot;&gt;
+    &lt;div class&#x3D;&quot;row&quot;&gt;
+      &lt;div class&#x3D;&quot;col-md-4 mb-3&quot;&gt;
+        &lt;div class&#x3D;&quot;card blog-post-card&quot;&gt;
+          &lt;img class&#x3D;&quot;card-img-top&quot; src&#x3D;&quot;assets/images/blog/blog-post-thumb-card-1.jpg&quot; alt&#x3D;&quot;image&quot;&gt;
+          &lt;div class&#x3D;&quot;card-body&quot;&gt;
+            &lt;h5 class&#x3D;&quot;card-title&quot;&gt;&lt;a class&#x3D;&quot;theme-link&quot; routerLink&#x3D;&quot;/live-blog&quot; (click)&#x3D;&quot;rewriteBlogURL(&#x27;http://www.myblog.nguenkam.com/index.php/2020/09/21/software-versioning/&#x27;)&quot;&gt;Software versioning&lt;/a&gt;&lt;/h5&gt;
+            &lt;p class&#x3D;&quot;card-text&quot;&gt; Jedes Release eines Softwareprogramms bekommt eine Versionsnummer, die auf den ersten Blick
+              darüber Auskunft gibt, ob ein Hersteller regelmäßig Updates zur Verfügung stellt und seine Software verbessert...&lt;/p&gt;
+            &lt;p class&#x3D;&quot;mb-0&quot;&gt;&lt;a class&#x3D;&quot;more-link&quot; routerLink&#x3D;&quot;/live-blog&quot; (click)&#x3D;&quot;rewriteBlogURL(&#x27;http://www.myblog.nguenkam.com/index.php/2020/09/21/software-versioning/&#x27;)&quot;&gt;Read more &amp;rarr;&lt;/a&gt;&lt;/p&gt;
+
+          &lt;/div&gt;
+          &lt;div class&#x3D;&quot;card-footer&quot;&gt;
+            &lt;small class&#x3D;&quot;text-muted&quot;&gt;Published 2 days ago&lt;/small&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;&lt;!--//card--&gt;
+      &lt;/div&gt;&lt;!--//col--&gt;
+      &lt;div class&#x3D;&quot;col-md-4 mb-3&quot;&gt;
+        &lt;div class&#x3D;&quot;card blog-post-card&quot;&gt;
+          &lt;img class&#x3D;&quot;card-img-top&quot; src&#x3D;&quot;assets/images/blog/blog-post-thumb-card-2.jpg&quot; alt&#x3D;&quot;image&quot;&gt;
+          &lt;div class&#x3D;&quot;card-body&quot;&gt;
+            &lt;h5 class&#x3D;&quot;card-title&quot;&gt;&lt;a class&#x3D;&quot;theme-link&quot; href&#x3D;&quot;blog-post.html&quot;&gt;CMD Commands&lt;/a&gt;&lt;/h5&gt;
+            &lt;p class&#x3D;&quot;card-text&quot;&gt;The Windows command prompt is a feature that’s been a core part of the Windows
+              operating system for a long time.The following are some of the best CMD commands you should know if you
+              want to have more control over ...&lt;/p&gt;
+            &lt;p class&#x3D;&quot;mb-0&quot;&gt;&lt;a class&#x3D;&quot;more-link&quot; href&#x3D;&quot;blog-post.html&quot;&gt;Read more &amp;rarr;&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class&#x3D;&quot;card-footer&quot;&gt;
+            &lt;small class&#x3D;&quot;text-muted&quot;&gt;Published a week ago&lt;/small&gt;
+
+          &lt;/div&gt;
+        &lt;/div&gt;&lt;!--//card--&gt;
+      &lt;/div&gt;&lt;!--//col--&gt;
+      &lt;div class&#x3D;&quot;col-md-4 mb-3&quot;&gt;
+        &lt;div class&#x3D;&quot;card blog-post-card&quot;&gt;
+          &lt;img class&#x3D;&quot;card-img-top&quot; src&#x3D;&quot;assets/images/blog/blog-post-thumb-card-3.jpg&quot; alt&#x3D;&quot;image&quot;&gt;
+          &lt;div class&#x3D;&quot;card-body&quot;&gt;
+            &lt;h5 class&#x3D;&quot;card-title&quot;&gt;&lt;a class&#x3D;&quot;theme-link&quot; href&#x3D;&quot;blog-post.html&quot;&gt;Angular app with PHP backend&lt;/a&gt;&lt;/h5&gt;
+            &lt;p class&#x3D;&quot;card-text&quot;&gt;Learn to code Angular app with PHP backend In the following tutorials, you’ll learn how
+              build a whole application with Angular (Frontend ) &amp; PHP ( Backend) .
+              We will create an easy CRUD application...&lt;/p&gt;
+            &lt;p class&#x3D;&quot;mb-0&quot;&gt;&lt;a class&#x3D;&quot;more-link&quot; href&#x3D;&quot;blog-post.html&quot;&gt;Read more &amp;rarr;&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class&#x3D;&quot;card-footer&quot;&gt;
+            &lt;small class&#x3D;&quot;text-muted&quot;&gt;Published 3 weeks ago&lt;/small&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;&lt;!--//card--&gt;
+      &lt;/div&gt;&lt;!--//col--&gt;
+      &lt;div class&#x3D;&quot;col-md-4 mb-3&quot;&gt;
+        &lt;div class&#x3D;&quot;card blog-post-card&quot;&gt;
+          &lt;img class&#x3D;&quot;card-img-top&quot; src&#x3D;&quot;assets/images/blog/blog-post-thumb-card-4.jpg&quot; alt&#x3D;&quot;image&quot;&gt;
+          &lt;div class&#x3D;&quot;card-body&quot;&gt;
+            &lt;h5 class&#x3D;&quot;card-title&quot;&gt;&lt;a class&#x3D;&quot;theme-link&quot; href&#x3D;&quot;blog-post.html&quot;&gt;Internationalization ( i18n ) With Angular&lt;/a&gt;&lt;/h5&gt;
+            &lt;p class&#x3D;&quot;card-text&quot;&gt;Internationalization, often written as i18n, is the process through which products can
+              be prepared to be taken to other countries...&lt;/p&gt;
+            &lt;p class&#x3D;&quot;mb-0&quot;&gt;&lt;a class&#x3D;&quot;more-link&quot; href&#x3D;&quot;blog-post.html&quot;&gt;Read more &amp;rarr;&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class&#x3D;&quot;card-footer&quot;&gt;
+            &lt;small class&#x3D;&quot;text-muted&quot;&gt;Published 1 month ago&lt;/small&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;&lt;!--//card--&gt;
+      &lt;/div&gt;&lt;!--//col--&gt;
+      &lt;div class&#x3D;&quot;col-md-4 mb-3&quot;&gt;
+        &lt;div class&#x3D;&quot;card blog-post-card&quot;&gt;
+          &lt;img class&#x3D;&quot;card-img-top&quot; src&#x3D;&quot;assets/images/blog/blog-post-thumb-card-5.jpg&quot; alt&#x3D;&quot;image&quot;&gt;
+          &lt;div class&#x3D;&quot;card-body&quot;&gt;
+            &lt;h5 class&#x3D;&quot;card-title&quot;&gt;&lt;a class&#x3D;&quot;theme-link&quot; href&#x3D;&quot;blog-post.html&quot;&gt;Nginx – Mettre en place un serveur web&lt;/a&gt;&lt;/h5&gt;
+            &lt;p class&#x3D;&quot;card-text&quot;&gt;Le principal but de notre serveur est d’héberger des sites web. Pour cela on a besoin
+              d’installer un serveur HTTP...&lt;/p&gt;
+            &lt;p class&#x3D;&quot;mb-0&quot;&gt;&lt;a class&#x3D;&quot;more-link&quot; href&#x3D;&quot;blog-post.html&quot;&gt;Read more &amp;rarr;&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class&#x3D;&quot;card-footer&quot;&gt;
+            &lt;small class&#x3D;&quot;text-muted&quot;&gt;Published 1 month ago&lt;/small&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;&lt;!--//card--&gt;
+      &lt;/div&gt;&lt;!--//col--&gt;
+      &lt;div class&#x3D;&quot;col-md-4 mb-3&quot;&gt;
+        &lt;div class&#x3D;&quot;card blog-post-card&quot;&gt;
+          &lt;img class&#x3D;&quot;card-img-top&quot; src&#x3D;&quot;assets/images/blog/blog-post-thumb-card-6.jpg&quot; alt&#x3D;&quot;image&quot;&gt;
+          &lt;div class&#x3D;&quot;card-body&quot;&gt;
+            &lt;h5 class&#x3D;&quot;card-title&quot;&gt;&lt;a class&#x3D;&quot;theme-link&quot; href&#x3D;&quot;blog-post.html&quot;&gt;Working with Angular
+              Template Reference Variables&lt;/a&gt;&lt;/h5&gt;
+            &lt;p class&#x3D;&quot;card-text&quot;&gt;A template reference variable is often a reference to a DOM element within a template.
+              It can also refer to a directive...&lt;/p&gt;
+            &lt;p class&#x3D;&quot;mb-0&quot;&gt;&lt;a class&#x3D;&quot;more-link&quot; href&#x3D;&quot;blog-post.html&quot;&gt;Read more &amp;rarr;&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class&#x3D;&quot;card-footer&quot;&gt;
+            &lt;small class&#x3D;&quot;text-muted&quot;&gt;Published 2 months ago&lt;/small&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;&lt;!--//card--&gt;
+      &lt;/div&gt;&lt;!--//col--&gt;
+    &lt;/div&gt;&lt;!--//row--&gt;
+
+
+    &lt;nav class&#x3D;&quot;blog-nav nav nav-justified my-5&quot;&gt;
+      &lt;a class&#x3D;&quot;nav-link-prev nav-item nav-link d-none rounded-left&quot; href&#x3D;&quot;#&quot;&gt;Previous&lt;i
+        class&#x3D;&quot;arrow-prev fas fa-long-arrow-alt-left&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+      &lt;a class&#x3D;&quot;nav-link-next nav-item nav-link rounded&quot; routerLink&#x3D;&quot;/live-blog&quot; (click)&#x3D;&quot;rewriteBlogURL()&quot;&gt;Next&lt;i
+        class&#x3D;&quot;arrow-next fas fa-long-arrow-alt-right&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;/nav&gt;
+
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;footer class&#x3D;&quot;footer text-center py-4&quot;&gt;
+  &lt;small class&#x3D;&quot;copyright&quot;&gt; Copyright &amp;copy; 2020 &lt;a href&#x3D;&quot;https://nguenkam.com/&quot; target&#x3D;&quot;_blank&quot;&gt;Aurelien Brice Nguenkam&lt;/a&gt;&lt;/small&gt;
+&lt;/footer&gt;
+
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./blog.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss"></code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><section class="cta-section theme-bg-light py-5">  <div class="container text-center">    <h2 class="heading">A Blog About Software Development And Life</h2>    <a href="http://www.myblog.nguenkam.com/" target="_blank"> ( http://www.myblog.nguenkam.com )</a>    <div class="intro">Welcome to my blog. Subscribe and get my latest blog post in your inbox.</div>    <form class="signup-form form-inline justify-content-center pt-3">      <div class="form-group">        <label class="sr-only" for="semail">Your email</label>        <input type="email" id="semail" name="semail1" class="form-control mr-md-1 semail" placeholder="Enter email">      </div>      <button type="submit" class="btn btn-primary">Subscribe</button>    </form>  </div><!--//container--></section><section class="blog-list px-3 py-5 p-md-5">  <div class="container">    <div class="row">      <div class="col-md-4 mb-3">        <div class="card blog-post-card">          <img class="card-img-top" src="assets/images/blog/blog-post-thumb-card-1.jpg" alt="image">          <div class="card-body">            <h5 class="card-title"><a class="theme-link" routerLink="/live-blog" (click)="rewriteBlogURL(\'http://www.myblog.nguenkam.com/index.php/2020/09/21/software-versioning/\')">Software versioning</a></h5>            <p class="card-text"> Jedes Release eines Softwareprogramms bekommt eine Versionsnummer, die auf den ersten Blick              darüber Auskunft gibt, ob ein Hersteller regelmäßig Updates zur Verfügung stellt und seine Software verbessert...</p>            <p class="mb-0"><a class="more-link" routerLink="/live-blog" (click)="rewriteBlogURL(\'http://www.myblog.nguenkam.com/index.php/2020/09/21/software-versioning/\')">Read more &rarr;</a></p>          </div>          <div class="card-footer">            <small class="text-muted">Published 2 days ago</small>          </div>        </div><!--//card-->      </div><!--//col-->      <div class="col-md-4 mb-3">        <div class="card blog-post-card">          <img class="card-img-top" src="assets/images/blog/blog-post-thumb-card-2.jpg" alt="image">          <div class="card-body">            <h5 class="card-title"><a class="theme-link" href="blog-post.html">CMD Commands</a></h5>            <p class="card-text">The Windows command prompt is a feature that’s been a core part of the Windows              operating system for a long time.The following are some of the best CMD commands you should know if you              want to have more control over ...</p>            <p class="mb-0"><a class="more-link" href="blog-post.html">Read more &rarr;</a></p>          </div>          <div class="card-footer">            <small class="text-muted">Published a week ago</small>          </div>        </div><!--//card-->      </div><!--//col-->      <div class="col-md-4 mb-3">        <div class="card blog-post-card">          <img class="card-img-top" src="assets/images/blog/blog-post-thumb-card-3.jpg" alt="image">          <div class="card-body">            <h5 class="card-title"><a class="theme-link" href="blog-post.html">Angular app with PHP backend</a></h5>            <p class="card-text">Learn to code Angular app with PHP backend In the following tutorials, you’ll learn how              build a whole application with Angular (Frontend ) & PHP ( Backend) .              We will create an easy CRUD application...</p>            <p class="mb-0"><a class="more-link" href="blog-post.html">Read more &rarr;</a></p>          </div>          <div class="card-footer">            <small class="text-muted">Published 3 weeks ago</small>          </div>        </div><!--//card-->      </div><!--//col-->      <div class="col-md-4 mb-3">        <div class="card blog-post-card">          <img class="card-img-top" src="assets/images/blog/blog-post-thumb-card-4.jpg" alt="image">          <div class="card-body">            <h5 class="card-title"><a class="theme-link" href="blog-post.html">Internationalization ( i18n ) With Angular</a></h5>            <p class="card-text">Internationalization, often written as i18n, is the process through which products can              be prepared to be taken to other countries...</p>            <p class="mb-0"><a class="more-link" href="blog-post.html">Read more &rarr;</a></p>          </div>          <div class="card-footer">            <small class="text-muted">Published 1 month ago</small>          </div>        </div><!--//card-->      </div><!--//col-->      <div class="col-md-4 mb-3">        <div class="card blog-post-card">          <img class="card-img-top" src="assets/images/blog/blog-post-thumb-card-5.jpg" alt="image">          <div class="card-body">            <h5 class="card-title"><a class="theme-link" href="blog-post.html">Nginx – Mettre en place un serveur web</a></h5>            <p class="card-text">Le principal but de notre serveur est d’héberger des sites web. Pour cela on a besoin              d’installer un serveur HTTP...</p>            <p class="mb-0"><a class="more-link" href="blog-post.html">Read more &rarr;</a></p>          </div>          <div class="card-footer">            <small class="text-muted">Published 1 month ago</small>          </div>        </div><!--//card-->      </div><!--//col-->      <div class="col-md-4 mb-3">        <div class="card blog-post-card">          <img class="card-img-top" src="assets/images/blog/blog-post-thumb-card-6.jpg" alt="image">          <div class="card-body">            <h5 class="card-title"><a class="theme-link" href="blog-post.html">Working with Angular              Template Reference Variables</a></h5>            <p class="card-text">A template reference variable is often a reference to a DOM element within a template.              It can also refer to a directive...</p>            <p class="mb-0"><a class="more-link" href="blog-post.html">Read more &rarr;</a></p>          </div>          <div class="card-footer">            <small class="text-muted">Published 2 months ago</small>          </div>        </div><!--//card-->      </div><!--//col-->    </div><!--//row-->    <nav class="blog-nav nav nav-justified my-5">      <a class="nav-link-prev nav-item nav-link d-none rounded-left" href="#">Previous<i        class="arrow-prev fas fa-long-arrow-alt-left"></i></a>      <a class="nav-link-next nav-item nav-link rounded" routerLink="/live-blog" (click)="rewriteBlogURL()">Next<i        class="arrow-next fas fa-long-arrow-alt-right"></i></a>    </nav>  </div></section><footer class="footer text-center py-4">  <small class="copyright"> Copyright &copy; 2020 <a href="https://nguenkam.com/" target="_blank">Aurelien Brice Nguenkam</a></small></footer></div>'
+    var COMPONENTS = [{'name': 'AboutComponent', 'selector': 'app-about'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'BlogComponent', 'selector': 'app-blog'},{'name': 'ContactComponent', 'selector': 'app-contact'},{'name': 'EmbedComponent', 'selector': 'app-embed-website'},{'name': 'PortfolioComponent', 'selector': 'app-portfolio'},{'name': 'ProjectsComponent', 'selector': 'app-projects'},{'name': 'ResumeComponent', 'selector': 'app-resume'},{'name': 'ServicesComponent', 'selector': 'app-services'},{'name': 'SidenavComponent', 'selector': 'app-sidenav'},{'name': 'ToolbarComponent', 'selector': 'app-toolbar'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'BlogComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'BlogComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

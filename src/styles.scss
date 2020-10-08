@@ -1,0 +1,56 @@
+@import 'styles/css/variable';
+@import 'styles/fontawesome/css/all.css';
+@import "styles/css/theme-7";
+
+html, body {
+  margin: 0;
+  padding: 0;
+
+  height: 100%;
+}
+
+body {
+
+  .btn {
+    font-weight: unset !important;
+  }
+
+  .card-title, .item-title, .project-section-title {
+    font-weight: 500 !important;
+  }
+
+}
+
+.mat-body, .mat-body-1, .mat-typography {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.2em !important;
+  line-height: 1.5 !important;
+  font-weight: 400;
+  text-align: left;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 9.5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $scrollbar-background;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  // background: #555;
+}
+
+
+

@@ -1,0 +1,21 @@
+import {Component, OnInit} from '@angular/core';
+import {ProjectService} from '../../services/project.service';
+
+@Component({
+  selector: 'app-portfolio',
+  templateUrl: './portfolio.component.html',
+  styleUrls: ['./portfolio.component.scss']
+})
+export class PortfolioComponent implements OnInit {
+
+  constructor(private projectService: ProjectService) {
+  }
+
+  ngOnInit(): void {
+  }
+
+  setProject(name: string): void {
+    this.projectService.name = name.toUpperCase();
+  }
+
+}
