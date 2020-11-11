@@ -77,7 +77,7 @@ export class AboutComponent implements OnInit {
   }
 
 
-  rewriteBlogURL(url = 'https://www.blog.nguenkam.com/'): void {
+  rewriteBlogURL(url = 'https://nguenkam.com/blog/'): void {
     this.sharedService.category = 'blog';
     this.sharedService.currentBlogURL = url;
   }

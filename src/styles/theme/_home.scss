@@ -31,7 +31,7 @@
 	.item {
 		margin-bottom: 2rem;
 	}
-	
+
 	.item-desc {
 		color: $theme-text-color-secondary;
 		font-size: 0.875rem;
@@ -40,7 +40,7 @@
 	.item-icon {
 		font-size: 1.875rem;
 		color: $theme-color-primary;
-		
+
 		.fa-angular {
 			color: #CA3327;
 		}
@@ -93,7 +93,7 @@
 }
 
 .testimonial-carousel {
-	
+
 	.item-inner {
 		padding: 1.5rem;
 		padding-left: 3rem;
@@ -122,7 +122,7 @@
 		}
 	}
 
-	
+
 	.fa-quote-left {
 		position: absolute;
 		left: 0.35rem;
@@ -130,7 +130,7 @@
 		color: #fff;
 		font-size: 0.75rem;
 	}
-	
+
 	.source-holder {
 		position: relative;
 		padding-left: 76px;
@@ -144,10 +144,10 @@
 			padding-top: .5rem;
 		}
 	}
-	
-	
-	
-	
+
+
+
+
 }
 
 .testiomonial-carousel-container {
@@ -156,7 +156,7 @@
 		margin-top: 1rem;
 	    text-align: center;
 	    width: 100%;
-		
+
 		button {
 		    width: 10px;
 		    height: 10px;
@@ -178,9 +178,9 @@
 	border: 1px solid rgba(0, 0, 0, 0.025);
 	position: relative;
 	height: 100%;
-	
+
 	&:hover {
-		
+
 		.link-mask {
 			visibility: visible;
 			background: rgba($theme-text-color-primary, 0.4);
@@ -188,12 +188,12 @@
 		.link-mask-text {
 			display: block;
 		}
-		
+
 	}
 	.card-img {
 		@include border-radius(0);
 	}
-	
+
 	.card-title {
 		font-size: 1.125rem;
 	}
@@ -205,7 +205,7 @@
 		overflow: hidden;
 		vertical-align: middle;
 	}
-	
+
 	.link-mask {
 		position: absolute;
 		left: 0;
@@ -214,19 +214,19 @@
 		height: 100%;
 		visibility: hidden;
 		@include transition(all 0.4s ease-in-out);
-		
-		
+
+
 		.link-mask-link {
 			position: absolute;
 			left: 0;
 			top: 0;
 			width: 100%;
-			height: 100%;	
+			height: 100%;
 			display: block;
 		}
 
 	}
-	
+
 	.link-mask-text {
 		    position: absolute;
 			left: 0;
@@ -237,29 +237,29 @@
 			vertical-align: middle;
 			color: #fff;
 			display: none;
-			
-			
+
+
 			.btn {
 				top: 50%;
 				margin-top: -20px;
 				position: relative;
 			}
 	}
-	
-	
+
+
 
 }
 
 .blog-post-card {
-	
+
 	background: $smoky-white;
 	border: 1px solid rgba(0, 0, 0, 0.025);
 	height: 100%;
 	@include border-radius(0);
-	
+
 
 	.card-img-top {
-		
+
 	}
 	.card-title {
 		font-size: 1.125rem;

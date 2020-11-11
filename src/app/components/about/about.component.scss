@@ -39,12 +39,6 @@
   }
 }
 
-@keyframes slide-right {
-  to {
-    transform:translateX(-300%);
-  }
-}
-
 @keyframes anime {
   0%   {
     transform: translate(0, 0); }
