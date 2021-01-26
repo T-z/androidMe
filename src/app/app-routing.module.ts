@@ -1,13 +1,13 @@
 import {NgModule} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
-import {AboutComponent} from './components/about/about.component';
-import {ResumeComponent} from './components/resume/resume.component';
-import {PortfolioComponent} from './components/portfolio/portfolio.component';
-import {ContactComponent} from './components/contact/contact.component';
-import {BlogComponent} from './components/blog/blog.component';
-import {ServicesComponent} from './components/services/services.component';
-import {ProjectsComponent} from './components/projects/projects.component';
-import {EmbedComponent} from './components/embed/embed.component';
+import {AboutComponent} from './site/pages/about/about.component';
+import {ResumeComponent} from './site/pages/resume/resume.component';
+import {PortfolioComponent} from './site/pages/portfolio/portfolio.component';
+import {ContactComponent} from './site/pages/contact/contact.component';
+import {BlogComponent} from './site/pages/blog/blog.component';
+import {ServicesComponent} from './site/pages/services/services.component';
+import {ProjectsComponent} from './site/components/projects/projects.component';
+import {EmbedComponent} from './site/pages/embed/embed.component';
 
 
 const AppRoutes: Routes = [{
